@@ -12,12 +12,13 @@ Application Infrastructure Architecture
 The application infrastructure consists of the following:
 - A highly available architecture that spans 2 Availability Zones (AZs).
 - A Virtual Private Cloud (VPC) configured with private and public subnets, according to AWS best practices.
-- Managed Network Address Translation (NAT) gateways in the public subnets will allow outbound internet access for resources in the application's private subnets.
+- Managed Network Address Translation (NAT) gateways in the public subnets to allow outbound internet access for resources in the application's private subnets.
 - AWS Simple Storage Service (S3) for website hosting.
 - AWS Content Delivery Network (CDN) to distribute static and dynamic content.
 - In the private subnets:
   * Amazon Elastic Container Service (ECS) tasks running with AWS Fargate behind the Application Load Balancer (ALB).
-  * RDS Postgres Database with a primary and secondary instance.
+  * Implement Auto-Scaling to automatically adjust the number of ECS instances in response to traffic demands to ensure the application can handle load spikes without manual intervention.
+  * RDS Postgres Database with a primary and secondary instance. Set up Multi-AZ deployments for databases to keep the data synchronized across different locations.
 - Secrets from AWS Secrets manager to store database credentials. 
 - Parameter Store to provide secure, hierarchical storage for configuration data management.
 - AWS Certificate Manager (ACM) uses a certificate for the custom domain name on the ALB.
@@ -42,6 +43,10 @@ Backend Application CI/CD Application
 3. The pipeline triggers a deployment to the Dev environment using CodeDeploy.  
 4. Subsequent deployments to the QA or UAT environments are done through manual approvals.  
 5. When the release process is run and completed, the release tagged artitacts are replicated to the production for their eventual release via CodeDeploy.  
+
+> NOTE:  
+> Release artifacts will be replicated to the production account and in-turn deployed from the production account. This approach  
+> enhances security by limiting access to production resources and ensures only approved artifacts are deployed to production.
 
 <!--
 **donaldsiziba/donaldsiziba** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
