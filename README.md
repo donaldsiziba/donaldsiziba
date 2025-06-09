@@ -45,8 +45,9 @@ Backend Application CI/CD Application
 5. When the release process is run and completed, the release tagged artitacts are replicated to the production for their eventual release via CodeDeploy.  
 
 > NOTE:  
-> Release artifacts will be replicated to the production account and in-turn deployed from the production account. This approach  
-> enhances security by limiting access to production resources and ensures only approved artifacts are deployed to production.
+> Release artifacts will be replicated to the production account and in-turn deployed from the production account. This approach 
+> enhances security by limiting access to production resources and ensures only approved artifacts are deployed to
+> production.
 
 <!--
 **donaldsiziba/donaldsiziba** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
