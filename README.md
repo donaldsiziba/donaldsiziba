@@ -49,6 +49,23 @@ Backend Application CI/CD Application
 > enhances security by limiting access to production resources and ensures only approved artifacts are deployed to
 > production.
 
+## AWS Multi-Region Architecture 🌍
+![AWS Multi-Region Architecture](./images/aws-multi-region-architecture.png)  
+AWS Multi-Region Architecture
+
+One of my client's had a requirement to expand their platform to a global audience, in light of this I laid out a blueprint to focus on **building resilientm scalable, and high-performance systems**. AWS Multi-Region architecture is a key strategy for achieving these goals, ensuring global availability and disaster recovery while optimizing latency for users across different locations.
+
+### Key Considerations:
+- **High Availability & Disaster Recovery** – Utilizing multiple regions ensures fault tolerance and business continuity in case of outages.
+- **Latency Optimization** – Deploying workloads closer to users enhances performance and responsiveness.
+- **Data Replication & Consistency** – Leveraging AWS services like Amazon Aurora Global Database and S3 Cross-Region Replication to maintain data integrity across regions.
+- **Cost-Efficiency** – Balancing redundancy and operational efficiency to optimize expenses.
+
+## 📫 Let's Connect
+- [Email](mailto:donald@awesomatic.co.za)
+- [LinkedIn](https://www.linkedin.com/in/donald-siziba-35603322/)
+- [Medium](https://medium.com/@donaldsiziba)
+
 <!--
 **donaldsiziba/donaldsiziba** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
