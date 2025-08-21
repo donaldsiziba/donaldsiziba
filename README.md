@@ -3,7 +3,9 @@
 I am an experienced Solutions Architect with a strong background in cloud migrations, infrastructure automation, developing highly available, scalable and fault-tolerant solutions on-premise and across multi-account AWS environments.
 
 ## Current Projects 🔭 
-I’m currently working on AWS workload migrations, with most deployments following the standard 3-tier architecture -  application and data layers fronted by an internet-facing web application. The infrastructure, including the CI/CD pipelines, is provisioned using AWS CloudFormation - strictly 🚫 **NO ClickOps**.
+I’m currently working on AWS workload migrations, with most deployments following the standard 3-tier architecture -  application and data layers fronted by an internet-facing web application.  
+
+The infrastructure, including the CI/CD pipelines, is provisioned using AWS CloudFormation - strictly 🚫 **NO ClickOps**.
 
 ### Application Infrastructure Architecture 🏗️
 ![Application Infrastructure Architecture](./images/applicatiion-infrastructure-architecture.png)  
