@@ -55,7 +55,7 @@ Backend Application CI/CD Application
 ![AWS Multi-Region Architecture](./images/aws-multi-region-architecture.png)  
 AWS Multi-Region Architecture
 
-One of my client's had a requirement to expand their platform to a global audience, in light of this I laid out a blueprint to focus on **building resilientm scalable, and high-performance systems**. AWS Multi-Region architecture is a key strategy for achieving these goals, ensuring global availability and disaster recovery while optimizing latency for users across different locations.
+One of my client's had a requirement to expand their platform to a global audience, in light of this I laid out a blueprint that focuses on building **resilient, scalable, and high-performance systems**. The **AWS Multi-Region architecture** is a key strategy for achieving these goals, ensuring global availability and disaster recovery while optimizing latency for users across different locations.
 
 ### Key Considerations:
 - **High Availability & Disaster Recovery** – Utilizing multiple regions ensures fault tolerance and business continuity in case of outages.
