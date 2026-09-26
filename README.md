@@ -4,7 +4,7 @@ I'm a solutions architect in Midrand, South Africa, and I've spent 10+ years bui
 
 ## What I'm working on 🔭
 
-### Self-service RAG for businesses
+### Self-service RAG
 
 Several businesses want to ask questions of their own documents, and none of them wants to build the plumbing or explain to Security how it works. So the whole thing is packaged as an **AWS Service Catalog product**. A business admin picks a handful of options (data classification, chunking, embedding model) and gets an isolated stack in their own AWS account:
 
