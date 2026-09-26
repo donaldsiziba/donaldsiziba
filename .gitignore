@@ -1,0 +1,4 @@
+# draw.io sources stay local; only the exported images in images/ are versioned
+*.drawio
+*.drawio.bak
+.$*.bkp
