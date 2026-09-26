@@ -1,6 +1,6 @@
 ## Hi, I'm Donald 👋
 
-I'm a solutions architect in Midrand, South Africa, and I've spent 10+ years building systems for banks, insurers, fintechs and, more recently, a sports-tech company. For the last few years most of that has been on AWS. It started with migrations and infrastructure automation, and lately it's been generative AI platforms and real-time data streaming pipelines.
+I'm a solutions architect in Midrand, South Africa, and I've spent 10+ years building systems for financial services, healthcare, fintechs and, more recently, a sports-tech company. For the last few years most of that has been on AWS. It started with migrations and infrastructure automation, and lately it's been generative AI platforms and real-time data streaming pipelines.
 
 ## What I'm working on 🔭
 
